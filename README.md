@@ -17,6 +17,7 @@ docker buildx build \
 --push .
 ```
 
+<details>
 <summary>단일 플랫폼으로 빌드 (로컬로 로드)</summary>
 
 ##### docker buildx build & push
@@ -33,7 +34,4 @@ docker inspect anti1346/samplefile:latest --format='{{.Architecture}}'
 ```
 docker push anti1346/samplefile:latest
 ```
-
-
-
 </details>
